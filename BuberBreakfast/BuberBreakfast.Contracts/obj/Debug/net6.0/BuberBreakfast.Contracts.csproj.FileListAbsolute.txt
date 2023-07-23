@@ -1,0 +1,12 @@
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/bin/Debug/net6.0/BuberBreakfast.Contracts.deps.json
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/bin/Debug/net6.0/BuberBreakfast.Contracts.dll
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/bin/Debug/net6.0/BuberBreakfast.Contracts.pdb
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net6.0/BuberBreakfast.Contracts.csproj.AssemblyReference.cache
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net6.0/BuberBreakfast.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net6.0/BuberBreakfast.Contracts.AssemblyInfoInputs.cache
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net6.0/BuberBreakfast.Contracts.AssemblyInfo.cs
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net6.0/BuberBreakfast.Contracts.csproj.CoreCompileInputs.cache
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net6.0/BuberBreakfast.Contracts.dll
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net6.0/refint/BuberBreakfast.Contracts.dll
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net6.0/BuberBreakfast.Contracts.pdb
+/home/ffekirnew/code/projects/dotnet-rest-api/BuberBreakfast/BuberBreakfast.Contracts/obj/Debug/net6.0/ref/BuberBreakfast.Contracts.dll
