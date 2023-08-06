@@ -1,4 +1,4 @@
-namespace BuberDinner.Application.Commons.Interfaces;
+namespace BuberDinner.Application.Commons.Interfaces.Authentication;
 
 
 public interface IJwtGenerator
