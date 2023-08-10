@@ -22,32 +22,32 @@ public class AuthenticationController : ControllerBase
             request.FirstName,
             request.LastName,
             request.Email,
-            request.Password);
-        
+            request.Password
+        );
+
         var response = new AuthenticationResponse(
             authResult.Id,
             authResult.FirstName,
             authResult.LastName,
             authResult.Email,
-            authResult.Token);
-        
+            authResult.Token
+        );
+
         return Ok(response);
     }
-
 
     [HttpPost("login")]
     public IActionResult Login(LoginRequest request)
     {
-        var authResult = _authenticationService.Login(
-            request.Email,
-            request.Password);
+        var authResult = _authenticationService.Login(request.Email, request.Password);
 
         var response = new AuthenticationResponse(
             authResult.Id,
             authResult.FirstName,
             authResult.LastName,
             authResult.Email,
-            authResult.Token);
+            authResult.Token
+        );
 
         return Ok(response);
     }

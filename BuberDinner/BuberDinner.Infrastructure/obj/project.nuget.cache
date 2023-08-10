@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "dE779UAGw7QscQQudlhZnyBmJZ+fS45nrUnKfILgCHMzISuBrHFsDNaCTKbYbw5PKRIdynbhdHbA51XfUYsVlQ==",
+  "dgSpecHash": "/q3AatsxFouLr9O7CYJ7iTrvKxrdZZUyVPIldpt5XVJXDG2Ruqv6jUC0StjiuAmxf0ooc9Ex1xrXYt2hXb7YiA==",
   "success": true,
   "projectFilePath": "/home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/ffekirnew/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/ffekirnew/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "/home/ffekirnew/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/home/ffekirnew/.nuget/packages/microsoft.extensions.configuration.binder/7.0.0/microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
     "/home/ffekirnew/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/ffekirnew/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/home/ffekirnew/.nuget/packages/microsoft.extensions.options.configurationextensions/7.0.0/microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
+    "/home/ffekirnew/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/home/ffekirnew/.nuget/packages/microsoft.identitymodel.abstractions/6.32.1/microsoft.identitymodel.abstractions.6.32.1.nupkg.sha512",
     "/home/ffekirnew/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.32.1/microsoft.identitymodel.jsonwebtokens.6.32.1.nupkg.sha512",
     "/home/ffekirnew/.nuget/packages/microsoft.identitymodel.logging/6.32.1/microsoft.identitymodel.logging.6.32.1.nupkg.sha512",
