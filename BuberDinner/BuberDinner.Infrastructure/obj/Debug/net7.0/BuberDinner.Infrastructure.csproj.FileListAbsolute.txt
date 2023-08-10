@@ -15,3 +15,5 @@
 /home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Infrastructure/bin/Debug/net7.0/BuberDinner.Application.pdb
 /home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Infrastructure/bin/Debug/net7.0/BuberDinner.Domain.pdb
 /home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Infrastructure/obj/Debug/net7.0/BuberDinner.Infrastructure.csproj.CopyComplete
+/home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Infrastructure/bin/Debug/net7.0/BuberDinner.Infrastructure.runtimeconfig.json
+/home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Infrastructure/obj/Debug/net7.0/BuberDinner.Infrastructure.genruntimeconfig.cache

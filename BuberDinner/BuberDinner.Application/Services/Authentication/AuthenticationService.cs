@@ -1,5 +1,6 @@
 using BuberDinner.Application.Commons.Interfaces.Authentication;
 using BuberDinner.Application.Commons.Interfaces.Persistence;
+using BuberDinner.Domain.Entities;
 
 namespace BuberDinner.Application.Services.Authentication;
 
@@ -16,27 +17,48 @@ public class AuthenticationService : IAuthenticationService
 
     public AuthenticationResult Login(string email, string password)
     {
-        return new AuthenticationResult(
-            Guid.NewGuid(),
-            "Name",
-            "LastName",
-            email,
-            "token");    
+        // Check if the user exists
+        if (_userRepository.GetUserByEmail(email) is not User user)
+        {
+            throw new Exception("User with that email does not exist");
+        }
+        // Check if the passwordk is correct
+
+        if (user.Password != password)
+        {
+            throw new Exception("Password is incorrect");
+        }
+        // Generate a JWT token
+        var token = _jwtGenerator.GenerateToken(user);
+        // Return the result
+        return new AuthenticationResult(user, token);
     }
 
-    public AuthenticationResult Register(string firstName, string lastName, string email, string password)
+    public AuthenticationResult Register(
+        string firstName,
+        string lastName,
+        string email,
+        string password
+    )
     {
-        // Check if a user already exists
+        // Check if a user already exists, If exists, throw an exception
+        if (_userRepository.GetUserByEmail(email) is not null)
+        {
+            throw new Exception("User with that email already exists");
+        }
         // Create user (generate a unique id)
-        // Generate a token
         Guid userId = Guid.NewGuid();
-        var token = _jwtGenerator.GenerateToken(userId, "Name", "LastName");
+        var user = new User
+        {
+            Id = userId,
+            FirstName = firstName,
+            LastName = lastName,
+            Email = email,
+            Password = password
+        };
 
-        return new AuthenticationResult(
-            userId,
-            firstName,
-            lastName,
-            email,
-            token);
+        // Generate a token
+        var token = _jwtGenerator.GenerateToken(user);
+        return new AuthenticationResult(user, token);
     }
 }

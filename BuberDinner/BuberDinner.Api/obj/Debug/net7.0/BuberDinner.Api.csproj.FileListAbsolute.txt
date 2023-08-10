@@ -44,3 +44,8 @@
 /home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Api/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
 /home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Api/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
 /home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Api/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Api/bin/Debug/net7.0/Npgsql.dll
+/home/ffekirnew/code/projects/dotnet-start/BuberDinner/BuberDinner.Api/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
